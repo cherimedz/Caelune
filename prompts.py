@@ -45,10 +45,10 @@ FORMAT_LABELS: dict[str, str] = {
 }
 
 AVAILABLE_MODELS: dict[str, str] = {
-    "Qwen 2.5 7B Instruct":   "Qwen/Qwen2.5-7B-Instruct",
-    "Zephyr 7B Beta":         "HuggingFaceH4/zephyr-7b-beta",
-    "Phi-3.5 Mini Instruct":  "microsoft/Phi-3.5-mini-instruct",
-    "Gemma 2 2B Instruct":    "google/gemma-2-2b-it",
+    "Qwen 2.5 7B Instruct":      "Qwen/Qwen2.5-7B-Instruct",
+    "Llama 3.1 8B Instruct":     "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "Mistral 7B Instruct v0.3":  "mistralai/Mistral-7B-Instruct-v0.3",
+    "Hermes 3 Llama 3.1 8B":     "NousResearch/Hermes-3-Llama-3.1-8B",
 }
 
 DEFAULT_MODEL = "Qwen/Qwen2.5-7B-Instruct"
